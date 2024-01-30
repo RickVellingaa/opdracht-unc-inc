@@ -1,5 +1,12 @@
-/* CSS variabele */
+/* CSS variabels */
 :root {
+  --heading-clr: #000;
+  --text-clr: #7a7a7a;
+
+  /* Font families */
+  --font-light: fontLight;
+  --font-normal: fontNormal;
+  --font-bold: fontBold;
 }
 
 /* Fonts UncInc */
@@ -18,29 +25,36 @@
   src: url(./assets/MuseoBold.woff) format("woff");
 }
 
-/* Globale styling */
+/* Global styling */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+h1,
+h2,
+h3 {
+  font-family: var(--font-bold);
+  color: var(--heading-clr);
+}
+
 h1 {
   font-size: 1.875em;
-  font-family: fontBold;
 }
 
 h2 {
   font-size: 1.5em;
-  font-family: fontBold;
 }
 
 h3 {
   font-size: 1.25em;
-  font-family: fontBold;
 }
 
 p {
   font-size: 1em;
-  font-family: FontNormal;
+  font-family: var(--font-normal);
+  color: var(--text-clr);
 }
+
+/* Navbar styling */
