@@ -138,3 +138,23 @@ header nav ul li a.active {
 }
 
 /* About component */
+.about {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 2em 3em;
+}
+
+.about h3 {
+  font-size: 3.75em;
+}
+
+.about p {
+  width: 66.666%;
+  font-size: 1.5em;
+  line-height: 2.5rem;
+}
