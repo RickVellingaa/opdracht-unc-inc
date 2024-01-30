@@ -1,5 +1,16 @@
 function Projects() {
-  return <div>Projects</div>;
+  return (
+    <section className="projects">
+      <h2>Projecten</h2>
+      <div className="projects-list">
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+      </div>
+    </section>
+  );
 }
 
 export default Projects;

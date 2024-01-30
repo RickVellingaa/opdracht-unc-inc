@@ -91,3 +91,50 @@ header nav ul li a {
 header nav ul li a.active {
   color: var(--text-clr);
 }
+
+/* Projects component */
+.projects {
+  position: relative;
+  width: 100%;
+  padding: 2em 3em;
+}
+
+.projects-list {
+  position: relative;
+  display: grid;
+  margin-top: 1em;
+  grid-template-areas:
+    "hvc toegift toegift brenger"
+    "vandebron vandebron troopen troopen";
+  grid-template-columns: 1.5fr 2fr 2fr 2fr;
+  grid-gap: 1em;
+  width: 100%;
+  height: 50vh;
+}
+
+.projects-list article {
+  width: 100%;
+  background-color: var(--text-clr);
+}
+
+.projects-list article:nth-child(1) {
+  grid-area: hvc;
+}
+
+.projects-list article:nth-child(2) {
+  grid-area: toegift;
+}
+
+.projects-list article:nth-child(3) {
+  grid-area: brenger;
+}
+
+.projects-list article:nth-child(4) {
+  grid-area: vandebron;
+}
+
+.projects-list article:nth-child(5) {
+  grid-area: troopen;
+}
+
+/* About component */
