@@ -158,3 +158,26 @@ header nav ul li a.active {
   font-size: 1.5em;
   line-height: 2.5rem;
 }
+
+/* Media queries */
+@media screen and (max-width: 480px) {
+  .projects-list {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+      "hvc"
+      "toegift"
+      "brenger"
+      "vandebron"
+      "troopen";
+  }
+
+  .about h3 {
+    font-size: 2em;
+  }
+
+  .about p {
+    font-size: 1em;
+    width: 100%;
+  }
+}
