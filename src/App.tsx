@@ -1,9 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home, Login, Dashboard } from "./pages";
+import { Navbar } from "./components";
 
 function App() {
   return (
     <BrowserRouter>
+      <Navbar />
       <Routes>
         <Route index element={<Home />} />
         <Route path="home" element={<Home />} />

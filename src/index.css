@@ -58,3 +58,36 @@ p {
 }
 
 /* Navbar styling */
+header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 2em 3em;
+}
+
+header nav {
+  position: relative;
+  height: 100%;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header nav ul li {
+  padding-left: 3em;
+}
+
+header nav ul li a {
+  font-family: var(--font-normal);
+  font-weight: 900;
+  color: var(--heading-clr);
+  text-decoration: none;
+}
+
+header nav ul li a.active {
+  color: var(--text-clr);
+}
