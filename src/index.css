@@ -1,0 +1,46 @@
+/* CSS variabele */
+:root {
+}
+
+/* Fonts UncInc */
+@font-face {
+  font-family: fontLight;
+  src: url(./assets/MuseoLight.woff) format("woff");
+}
+
+@font-face {
+  font-family: fontNormal;
+  src: url(./assets/MuseoNormal.woff) format("woff");
+}
+
+@font-face {
+  font-family: fontBold;
+  src: url(./assets/MuseoBold.woff) format("woff");
+}
+
+/* Globale styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 1.875em;
+  font-family: fontBold;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-family: fontBold;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-family: fontBold;
+}
+
+p {
+  font-size: 1em;
+  font-family: FontNormal;
+}
