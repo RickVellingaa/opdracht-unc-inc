@@ -4,7 +4,9 @@ import logo from "../assets/logo.svg";
 function Navbar() {
   return (
     <header>
-      <img src={logo} alt="Logo van UNC INC" />
+      <a href="/">
+        <img src={logo} alt="Logo van UNC INC" />
+      </a>
       <nav>
         <ul>
           <li>
