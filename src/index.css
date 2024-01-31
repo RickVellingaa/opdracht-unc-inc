@@ -160,6 +160,23 @@ header nav ul li a.active {
 }
 
 /* Login form */
+.logout-form {
+  position: relative;
+  padding: 2em 3em;
+}
+
+.logout-form button {
+  position: relative;
+  font-family: var(--font-normal);
+  font-size: 1em;
+  width: 7vw;
+  margin-top: 1em;
+  aspect-ratio: 4/1;
+  background-color: transparent;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
 .login-form {
   position: relative;
   display: flex;
