@@ -8,7 +8,7 @@ When i installed the project, the first thing i did i was to delete the unnecess
 
 ## Testing the product
 
-....
+Around the end of the assignment when I was happy with what ive built, i ran some tests to see what kind of performance and accessibility scores i would get on the site. I expected the scores to be near 100 since there isnt really like data that is being fetched or a ton of extra imports that are being handled. As expected the scores ended up being 100 for Performance and 94 for Accessibility (not 100 because of color contrast of the active nav item). Images from tests: https://github.com/RickVellingaa/opdracht-unc-inc/wiki/5.-Testen
 
 ## Result
 
