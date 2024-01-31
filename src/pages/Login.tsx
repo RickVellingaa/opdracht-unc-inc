@@ -1,5 +1,11 @@
+import { Form } from "../components";
+
 function Login() {
-  return <div>Login</div>;
+  return (
+    <main>
+      <Form />
+    </main>
+  );
 }
 
 export default Login;
