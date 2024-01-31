@@ -3,8 +3,8 @@ import { About, Projects } from "../components";
 function Home() {
   return (
     <main>
-      <Projects />
       <About />
+      <Projects />
     </main>
   );
 }
